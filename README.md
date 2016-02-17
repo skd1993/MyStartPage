@@ -9,6 +9,12 @@ A custom start page for my browser with material design.
 	* !k : kickass search
 	* !y : youtube search
 
+Name gif made using [FORM Type Maker](https://formtypemaker.appspot.com/)
+
+CSS used: [Material Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html)
+
+Demo [http://skd1993.github.io/MyStartPage/](http://skd1993.github.io/MyStartPage/)
+
 Name git made using [FORM Type Maker](https://formtypemaker.appspot.com/).
 
 CSS used: [Material Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html).
