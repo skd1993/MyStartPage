@@ -4,10 +4,10 @@ A custom start page for my browser with material design.
 * to set it as the default homepage, change the preferences in the browser settings.
 * for Firefox users, to set it as the "new tab" page too, install the add-on [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) and set it preferences to "custom page".
 * Prefix followed by a space followed by query: 
-	* !d : duckduckgo search 
-	* !p : piratebay search
-	* !k : kickass search
-	* !y : youtube search
+	* !d : DuckDuckGo search 
+	* !p : Piratebay search
+	* !k : Kickass search
+	* !y : YouTube search
 
 Name gif made using [FORM Type Maker](https://formtypemaker.appspot.com/)
 
