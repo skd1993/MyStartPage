@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="container-fluid" data-scrollreveal="enter top over 0.5s and move 500px">
 	<div class="row">
 		<div class="col-md-12" style="background-color: rgb(2,168,243)">
 			<img src="my_2.gif" alt="animate-name" class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;">
@@ -24,7 +24,7 @@
 				<label class="control-label" for="focusedInput1" style="color: white; text-align: center">Google Search</label>
 				<input class="form-control" id="search" type="text" style="color: white; text-align: center" autofocus>
 				<div class="col-md-12 text-center">
-					<button id="button-search" class="btn btn-raised btn-danger">Search!</button>
+					<button id="button-search" class="btn btn-raised btn-danger" data-toggle="tooltip" title="Prefix followed by a space followed by query => !d : duckduckgo search; !p : piratebay search; !k : kickass search; !y : youtube search">Search!</button>
 					<button id="button-clear" class="btn btn-raised btn-danger">Clear!</button>
 				</div>
 			</div>
@@ -32,7 +32,7 @@
 	</div>
 </div>
 <br>
-<div class="container">
+<div class="container" data-scrollreveal="enter bottom over 0.5s and move 500px">
 	<div class="row">
 		<div class="col-md-3">
 			<div class="well" id="col1">
@@ -52,12 +52,9 @@
 					</li>
 					<li>
 						<i class="material-icons">favorite_border</i>
-						<a href="https://kat.cr/" class="btn btn-default">Kickass</a>
-					</li>
+						<a href="https://kat.cr/full/" class="btn btn-default">Kickass</a>
 				</ul>
-			</div>
 		</div>
-		<div class="col-md-3">
 			<div class="well"  id="col2">
 				<h2>Social Net</h2><hr>
 				<ul>
@@ -75,7 +72,7 @@
 					</li>
 					<li>
 						<i class="material-icons">chat</i>
-						<a href="https://gmail.com" class="btn btn-default">Gmail</a>
+						<a href="http://www.inshorts.com/en/read" class="btn btn-default">News</a>
 					</li>
 				</ul>
 			</div>
@@ -170,12 +167,17 @@
 		</div>
 	</div>
 </div>
+<footer class="page-footer" data-scrollreveal="enter bottom over 0.5s and move 500px">
+	Made with &hearts; by <a href="https://github.com/skd1993">Shobhit</a>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="bootstrap-material-design-master/dist/js/material.min.js"></script>
 <script src="bootstrap-material-design-master/dist/js/ripples.min.js"></script>
+<script src="scrollreveal.js"></script>
 <script type="text/javascript">
 	$.material.init();
+	$('[data-toggle="tooltip"]').tooltip();
 </script>
 <script src="script.js"></script>
 </body>
