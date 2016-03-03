@@ -10,7 +10,7 @@ var weathertemp = document.getElementById('weather-temp');
 var weathervars = document.getElementById('weather-vars');
 var weatherinfo = document.getElementById('weather-info');
 
-var openweatherapikey = '33d4b32bf0b782eeb988e3472b09c53c';
+var openweatherapikey = <APIKEY>;
 
 window.onload = function() {
     searchbox.focus();
