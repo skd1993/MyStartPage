@@ -8,16 +8,14 @@ A custom start page for my browser with material design.
 	* !p : Piratebay search
 	* !k : Kickass search
 	* !y : YouTube search
+	* !w : Weather info displayed on the same page for the queried city.
+	
+Weather information obtained from **OpenWeather**.
+
+Weather icons: [Erikflowers Github](http://erikflowers.github.io/)
 
 Name gif made using [FORM Type Maker](https://formtypemaker.appspot.com/)
 
 CSS used: [Material Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html)
 
 Demo [http://skd1993.github.io/MyStartPage/](http://skd1993.github.io/MyStartPage/)
-
-Name git made using [FORM Type Maker](https://formtypemaker.appspot.com/).
-
-CSS used: [Material Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html).
-
-Here's a preview:
-![](http://i.imgur.com/HRrmKaY.png)
