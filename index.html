@@ -7,12 +7,13 @@
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Bootstrap -->
-	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap.min.css" rel="stylesheet">
 
 	<!-- Bootstrap Material Design -->
 	<link href="bootstrap-material-design-master/dist/css/bootstrap-material-design.css" rel="stylesheet">
 	<link href="bootstrap-material-design-master/dist/css/ripples.min.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
+	<link href="weather-css/weather-icons.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -33,6 +34,18 @@
 </div>
 <br>
 <div class="container" data-scrollreveal="enter bottom over 0.5s and move 500px">
+	<div class="well" id="weathershow" onclick="hidethis();">
+		<div class="row">
+			<div class="col-md-4" id="weather-icon">
+			</div>
+			<div class="col-md-4" id="weather-temp">
+			</div>
+			<div class="col-md-4" id="weather-vars">
+			</div>
+			<!-- <div class="col-md-3" id="weather-info">
+			</div> -->
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-md-3">
 			<div class="well" id="col1">
@@ -181,6 +194,10 @@
 <script type="text/javascript">
 	$.material.init();
 	$('[data-toggle="tooltip"]').tooltip();
+
+	function hidethis() {
+		$('#weathershow').hide("slow");
+	}
 </script>
 <script src="script.js"></script>
 </body>

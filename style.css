@@ -70,3 +70,29 @@ h2
 	height: 10%;
 	padding: 1%;
 }
+
+#weathershow
+{
+	background-color: dodgerblue;
+	display: none;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	text-align: center;
+}
+
+#weathershow div 
+{
+	margin-bottom: 20px;
+	padding-bottom: 0px !important;
+}
+
+#weather-icon
+{
+	margin-bottom: 0px !important;
+	padding-top: 10px;
+}
+
+#weather-icon i
+{
+	font-size: 120px;
+}
