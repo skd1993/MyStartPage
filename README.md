@@ -1,4 +1,4 @@
-##MyStartPage
+## MyStartPage
 A custom start page for my browser with material design.
 
 * to set it as the default homepage, change the preferences in the browser settings.
