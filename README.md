@@ -16,6 +16,6 @@ Weather icons: [Erikflowers Github](http://erikflowers.github.io/)
 
 Name gif made using [FORM Type Maker](https://formtypemaker.appspot.com/)
 
-CSS used: [Material Design](http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html)
+CSS used: [Material Design](https://mdbootstrap.com/)
 
 Demo [http://skd1993.github.io/MyStartPage/](http://skd1993.github.io/MyStartPage/)
